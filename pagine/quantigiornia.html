@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="/script/scriptCalcoloGiorniA.js"></script>
+    <script defer src="/script/scriptDelete.js"></script>
+    <script defer src="/script/scriptCambioPagina.js"></script>
+</head>
+<body>
+    <h1>Quanti giorni mancano a..</h1>
+    <label> Inserisci la data di inizio
+        <input type="date" id="calendario" name="day">
+    </label><br><br>
+    <label> Inserisci la data di fine
+        <input type="date" id="calendario" name="day">
+    </label><br><br>
+    <button type="submit" onclick="calcolaGiorni()">Conferma</button><br><br>
+    <button  id="topaginaeta" type = "submit" onclick ="goToPage2()">Vai alle tabelline</button>
+    <button  id="topaginacalcolatore" type = "submit" onclick ="goToPage3()">Vai al calcolatore eta</button><br><br>
+</body>
+</html>
