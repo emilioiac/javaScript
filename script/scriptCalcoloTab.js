@@ -5,6 +5,8 @@ function calcolaTabellina(){
     if(check == true){
         return
     }
+
+    
     else{
         var result = []
         for(let i=0; i<= 10 ; i++){
